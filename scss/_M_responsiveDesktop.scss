@@ -1,0 +1,125 @@
+@media screen and (min-width: 1023px) {
+  main {
+
+    .img-menu1, .img-menu2, .img-menu3, .img-menu4 {
+      height: 600px;
+    }
+
+    .entree_plat_dessert {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      .partie_entree {
+        margin: 0 0 0 10px;
+        width: 330px;
+        .grille-Menu {
+          margin: 15px 5px;
+          .menu {
+            h4 {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      .partie_plat {
+        margin: 0 0 0 0;
+        width: 330px;
+        .grille-Menu {
+          margin: 15px 5px;
+          .menu {
+            h4 {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      .partie_dessert {
+        margin: 0 10px 0 0;
+        width: 330px;
+        .grille-Menu {
+          margin: 15px 5px;
+          .menu {
+            h4 {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+  .appear-1,
+  .appear-4,
+  .appear-7 {
+    animation-name: apparition-menu;
+    animation-duration: 2s;
+    animation-delay: $duration-loader + 300ms;
+    animation-fill-mode: both;
+  }
+
+  .appear-2,
+  .appear-5,
+  .appear-8 {
+    animation-name: apparition-menu;
+    animation-duration: 2s;
+    animation-delay: $duration-loader + 600ms;
+    animation-fill-mode: both;
+  }
+
+  .appear-3,
+  .appear-6,
+  .appear-9 {
+    animation-name: apparition-menu;
+    animation-duration: 2s;
+    animation-delay: $duration-loader + 900ms;
+    animation-fill-mode: both;
+  }
+
+  .appear-3bis {
+    animation-name: apparition-menu;
+    animation-duration: 2s;
+    animation-delay: $duration-loader + 1200ms;
+    animation-fill-mode: both;
+  }
+
+  .appear-4bis {
+    animation-name: apparition-menu;
+    animation-duration: 2s;
+    animation-delay: $duration-loader + 300ms;
+    animation-fill-mode: both;
+  }
+
+  .appear-5bis {
+    animation-name: apparition-menu;
+    animation-duration: 2s;
+    animation-delay: $duration-loader + 600ms;
+    animation-fill-mode: both;
+  }
+
+  .appear-6bis {
+    animation-name: apparition-menu;
+    animation-duration: 2s;
+    animation-delay: $duration-loader + 900ms;
+    animation-fill-mode: both;
+  }
+
+  .appear-7bis {
+    animation-name: apparition-menu;
+    animation-duration: 2s;
+    animation-delay: $duration-loader + 300ms;
+    animation-fill-mode: both;
+  }
+
+  .appear-8bis {
+    animation-name: apparition-menu;
+    animation-duration: 2s;
+    animation-delay: $duration-loader + 600ms;
+    animation-fill-mode: both;
+  }
+
+  .appear-9bis {
+    animation-name: apparition-menu;
+    animation-duration: 2s;
+    animation-delay: $duration-loader + 900ms;
+    animation-fill-mode: both;
+  }
+}

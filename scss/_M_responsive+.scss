@@ -1,0 +1,100 @@
+@media screen and (min-width: 1439px) {
+  
+  .img-menu1, .img-menu2, .img-menu3, .img-menu4 {
+    height: 700px;
+  }
+  
+  main {
+    .entree_plat_dessert {
+      @include flexBetween;
+      align-items: flex-start;
+      .partie_entree {
+        margin: 0 0 0 20px;
+        width: 420px;
+      }
+      .partie_plat {
+        margin: 0 0 0 0;
+        width: 420px;
+      }
+      .partie_dessert {
+        margin: 0 20px 0 0;
+        width: 420px;
+      }
+    }
+  }
+  .appear-1,
+  .appear-4,
+  .appear-7 {
+    animation-name: apparition-menu;
+    animation-duration: 2s;
+    animation-delay: $duration-loader + 300ms;
+    animation-fill-mode: both;
+  }
+  
+  .appear-2,
+  .appear-5,
+  .appear-8 {
+    animation-name: apparition-menu;
+    animation-duration: 2s;
+    animation-delay: $duration-loader + 600ms;
+    animation-fill-mode: both;
+  }
+  
+  .appear-3,
+  .appear-6,
+  .appear-9 {
+    animation-name: apparition-menu;
+    animation-duration: 2s;
+    animation-delay: $duration-loader + 900ms;
+    animation-fill-mode: both;
+  }
+
+  .appear-3bis {
+    animation-name: apparition-menu;
+      animation-duration: 2s;
+      animation-delay: $duration-loader + 1200ms;
+      animation-fill-mode: both;
+  }
+  
+  .appear-4bis {
+    animation-name: apparition-menu;
+    animation-duration: 2s;
+    animation-delay: $duration-loader + 300ms;
+    animation-fill-mode: both;
+  }
+  
+  .appear-5bis {
+    animation-name: apparition-menu;
+    animation-duration: 2s;
+    animation-delay: $duration-loader + 600ms;
+    animation-fill-mode: both;
+  }
+  
+  .appear-6bis {
+    animation-name: apparition-menu;
+    animation-duration: 2s;
+    animation-delay: $duration-loader + 900ms;
+    animation-fill-mode: both;
+  }
+  
+  .appear-7bis {
+    animation-name: apparition-menu;
+    animation-duration: 2s;
+    animation-delay: $duration-loader + 300ms;
+    animation-fill-mode: both;
+  }
+  
+  .appear-8bis {
+    animation-name: apparition-menu;
+    animation-duration: 2s;
+    animation-delay: $duration-loader + 600ms;
+    animation-fill-mode: both;
+  }
+  
+  .appear-9bis {
+    animation-name: apparition-menu;
+    animation-duration: 2s;
+    animation-delay: $duration-loader + 900ms;
+    animation-fill-mode: both;
+  }
+}

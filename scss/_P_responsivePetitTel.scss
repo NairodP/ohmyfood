@@ -1,0 +1,123 @@
+@media screen and (max-width: 424px) {
+  
+  .loaderPage {
+    .main {
+      .loader {
+        width: 35px;
+        height: 35px;
+        border-radius: 35px;
+        border: 4px solid rgba(66, 122, 108, 0.5);
+  
+        &::after {
+        content: '';
+        opacity: 100%;
+        width: 35px;
+        height: 35px;
+        border-radius: 35px;
+        top: -4px;
+        left: -4px;
+        right: -4px;
+        bottom: -4px;
+        border: 4px solid transparent;
+        border-top-color: #99E2D0;
+        position: absolute;
+        animation: spin 2s linear infinite;
+        }
+      }
+      .loader-text {
+        font-size: 20px;
+      }
+    }
+  }
+  
+  nav {
+    .resa {
+      .button {
+        .btn-1 {
+          text-align: center;
+          padding: 20px 20px;
+          margin: 30px 10px;
+        }
+      }
+    }
+  }
+  .mainPrincipale {   
+    .bloc-restaurant {  
+      .restaurants {  
+        .case1 {
+          height: 230px;
+          .imgCase1 {
+            height: 60%;
+          }
+          .textCase {
+            padding: 15px;
+            .heart-unlock {
+              right: 25px;
+              top: 30px;
+            }
+            .heart-lock {
+              cursor: pointer;
+              right: 25px;
+              top: 30px;
+            }
+          }
+        }
+        .case2 {
+          height: 230px;
+          .imgCase2 {
+            height: 60%;
+            background-position: center;
+          }
+          .textCase {
+            padding: 15px;
+            .heart-unlock {
+              right: 25px;
+              top: 30px;
+            }
+            .heart-lock {
+              cursor: pointer;
+              right: 25px;
+              top: 30px;
+            }
+          }
+        }
+        .case3 {
+          height: 230px;
+          .imgCase3 {
+            height: 60%;
+          }
+          .textCase {
+            padding: 15px;
+            .heart-unlock {
+              right: 25px;
+              top: 30px;
+            }
+            .heart-lock {
+              cursor: pointer;
+              right: 25px;
+              top: 30px;
+            }
+          }
+        }
+        .case4 {
+          height: 230px;
+          .imgCase4 {
+            height: 60%;
+          }
+          .textCase {
+            padding: 15px;
+            .heart-unlock {
+              right: 25px;
+              top: 30px;
+            }
+            .heart-lock {
+              cursor: pointer;
+              right: 25px;
+              top: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

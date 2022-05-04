@@ -1,0 +1,22 @@
+@media screen and (min-width: 1439px) {
+  .mainPrincipale {
+    .bloc-restaurant {
+      max-width: 1010px;
+      margin: 0 auto;
+      .restaurants {    
+        .case1 {
+          margin: 0 10% 0 40px;
+        }
+        .case2 {
+          margin: 0 40px 0 10%;
+        }
+        .case3 {
+          margin: 0 10% 30px 40px;
+        }
+        .case4 {
+          margin: 0 40px 30px 10%;
+        }
+      }
+    }
+  }
+}

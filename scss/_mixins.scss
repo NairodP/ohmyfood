@@ -1,0 +1,84 @@
+@mixin flexCentre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flexBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin flexAround {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@mixin flexColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@mixin flexColumnForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin positionCentre ($x: 50%, $y: 50%) {
+  position: absolute;
+  left: $x;
+  top: $y;
+  transform: translate(-$x, -$y);
+}
+
+@mixin gradient {
+  background: rgb(255,121,218);
+  background: linear-gradient(175deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+}
+
+@mixin ombreBox {
+  -webkit-box-shadow: 0px 2px 31px -6px rgba(0,0,0,0.2); 
+  box-shadow: 0px 2px 31px -6px rgba(0,0,0,0.2);
+}
+
+@mixin img {
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0 0;
+  position: relative;
+}
+
+@mixin reglage-case {
+  margin: 0 25px;
+  background-color: #fff;
+  border-radius: 15px;
+  height: 300px;
+  -webkit-box-shadow: 0px 16px 31px -14px rgba(65, 62, 62, 0.36);
+  box-shadow: 0px 16px 31px -14px rgba(65, 62, 62, 0.36);
+  text-decoration: none;
+  color: black;
+}
+
+@mixin ombreCase {
+  -webkit-box-shadow: 0px 2px 31px -6px rgba(0,0,0,0.4); 
+  box-shadow: 0px 2px 31px -6px rgba(0,0,0,0.4);
+}
+
+@mixin disparition {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin gradient-icon {
+  color: transparent;
+  background-image: linear-gradient(to right, #FF79DA 10%, #934EE6 73%);;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
