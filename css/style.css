@@ -1995,17 +1995,19 @@ main .menu-type i {
   }
 }
 @media screen and (min-width: 1023px) {
-  main .img-menu1, main .img-menu2, main .img-menu3, main .img-menu4 {
-    height: 600px;
+  .img-menu1, .img-menu2, .img-menu3, .img-menu4 {
+    height: 580px;
   }
+
   main .entree_plat_dessert {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
     align-items: flex-start;
   }
   main .entree_plat_dessert .partie_entree {
-    margin: 0 0 0 10px;
-    width: 330px;
+    margin: 0 0 0 20px;
+    width: 29%;
   }
   main .entree_plat_dessert .partie_entree .grille-Menu {
     margin: 15px 5px;
@@ -2015,7 +2017,7 @@ main .menu-type i {
   }
   main .entree_plat_dessert .partie_plat {
     margin: 0 0 0 0;
-    width: 330px;
+    width: 29%;
   }
   main .entree_plat_dessert .partie_plat .grille-Menu {
     margin: 15px 5px;
@@ -2024,8 +2026,8 @@ main .menu-type i {
     cursor: pointer;
   }
   main .entree_plat_dessert .partie_dessert {
-    margin: 0 10px 0 0;
-    width: 330px;
+    margin: 0 20px 0 0;
+    width: 29%;
   }
   main .entree_plat_dessert .partie_dessert .grille-Menu {
     margin: 15px 5px;
