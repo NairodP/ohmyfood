@@ -1,0 +1,15 @@
+{
+  "name": "dorian_ohmyfood",
+  "version": "1.0.0",
+  "description": "Projet_3",
+  "main": "pagePrincipale.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss:css"
+  },
+  "author": "dorian_pernot",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.51.0"
+  }
+}

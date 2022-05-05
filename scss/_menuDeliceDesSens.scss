@@ -1,3 +1,5 @@
+body { max-width: 1490px;}
+
 .loaderPage {
   position: fixed;
   background-color: #f7f7f7;
@@ -71,7 +73,7 @@ header {
 }
 
 .img-menu1 {
-  background-image: url(/images/menu-delice.jpg);
+  background-image: url(images/menu-delice.jpg);
   background-size: cover;
   background-position: bottom;
   width: auto;
@@ -183,6 +185,7 @@ main {
     border-radius: 0 20px 20px 0;
     color: #fff;
     margin-right: -80px;
+    width: 80px;
     overflow: hidden;
     transition: 0.5s;
   }
@@ -195,6 +198,7 @@ main {
 
 .grille-Menu:hover .menu-price {
   margin-right: 15px;
+  padding-left: 0px;
 }
 
 .appear-1 {

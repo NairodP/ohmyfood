@@ -1,3 +1,5 @@
+body { max-width: 1490px;}
+
 .loaderPage {
   position: fixed;
   background-color: #f7f7f7;
@@ -71,7 +73,7 @@ header {
 }
 
 .img-menu4 {
-  background-image: url(/images/menu-palette-gout.jpg);
+  background-image: url(images/menu-palette-gout.jpg);
   background-size: cover;
   background-position: center;
   width: auto;
@@ -167,6 +169,7 @@ main {
     font-weight: bold;
     padding-right: 5px;
     padding-bottom: 15px;
+    padding-left: 10px;
     font-size: 18px;
     display: flex;
     align-items: flex-end;

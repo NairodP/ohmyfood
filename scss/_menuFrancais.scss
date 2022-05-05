@@ -1,3 +1,5 @@
+body { max-width: 1490px;}
+
 .loaderPage {
   position: fixed;
   background-color: #f7f7f7;
@@ -71,7 +73,7 @@ header {
 }
 
 .img-menu2 {
-  background-image: url(/images/menu-francais.jpg);
+  background-image: url(images/menu-francais.jpg);
   background-size: cover;
   background-position: center;
   width: auto;
