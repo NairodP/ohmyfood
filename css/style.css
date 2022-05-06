@@ -597,7 +597,7 @@ header #logo-header h1 {
 }
 
 .img-menu2 {
-  background-image: url("/images/menu-francais.jpg");
+  background-image: url(/images/menu-francais.jpg);
   background-size: cover;
   background-position: center;
   width: auto;
@@ -912,7 +912,7 @@ header #logo-header h1 {
 }
 
 .img-menu4 {
-  background-image: url("/images/menu-palette-gout.jpg");
+  background-image: url(/images/menu-palette-gout.jpg);
   background-size: cover;
   background-position: center;
   width: auto;
@@ -1227,7 +1227,7 @@ header #logo-header h1 {
 }
 
 .img-menu3 {
-  background-image: url("/images/menu-note-enchantee.jpg");
+  background-image: url(/images/menu-note-enchantee.jpg);
   background-size: cover;
   background-position: center;
   width: auto;
@@ -1548,7 +1548,7 @@ header #logo-header h1 {
 }
 
 .img-menu1 {
-  background-image: url("/images/menu-delice.jpg");
+  background-image: url(/images/menu-delice.jpg);
   background-size: cover;
   background-position: bottom;
   width: auto;
