@@ -227,7 +227,7 @@ nav {
         }
 
         .imgCase1 {
-          background-image: url("/images/menu-palette-gout.jpg");
+          background-image: url(../images/menu-palette-gout.jpg);
           @include img;
 
           .btn-new {
@@ -282,7 +282,7 @@ nav {
         }
 
         .imgCase2 {
-          background-image: url("/images/menu-note-enchantee.jpg");
+          background-image: url(../images/menu-note-enchantee.jpg);
           @include img;
 
           .btn-new {
@@ -337,7 +337,7 @@ nav {
         }
         
         .imgCase3 {
-          background-image: url("/images/menu-francais.jpg");
+          background-image: url(../images/menu-francais.jpg);
           background-position: bottom;
           @include img;
         }
@@ -380,7 +380,7 @@ nav {
         }
         
         .imgCase4 {
-          background-image: url("/images/menu-delice.jpg");
+          background-image: url(../images/menu-delice.jpg);
           background-position: bottom;
           @include img;
         }
