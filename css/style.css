@@ -2212,7 +2212,7 @@ main .menu-type i {
     animation-fill-mode: both;
   }
 }
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 374px) {
   .loaderPage .main .loader {
     width: 35px;
     height: 35px;
@@ -2247,6 +2247,14 @@ main .menu-type i {
   }
   main .menu-type i {
     font-size: 24px;
+  }
+}
+@media screen and (max-width: 424px) {
+  main .menu-type h2 {
+    font-size: 25px;
+  }
+  main .menu-type i {
+    font-size: 27px;
   }
 }
 
