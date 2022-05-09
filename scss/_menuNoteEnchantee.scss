@@ -142,16 +142,21 @@ main {
 }
 
 .grille-Menu {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) auto;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
   background-color: #fff;
   border-radius: 20px;
   margin: 15px;
   line-height: 1.5;
   @include ombreBox;
   @include disparition;
+  position: relative;
   
   .menu {
+    grid-area: 1 / 1 / 2 / 4;
     padding: 15px;
     @include disparition;
     h4 {
@@ -166,6 +171,7 @@ main {
     }
   }
   .menu-price {
+    grid-area: 1 / 4 / 2 / 5;
     font-weight: bold;
     padding-right: 5px;
     padding-bottom: 15px;
@@ -176,6 +182,7 @@ main {
     margin-right: 15px;
   }
   .validation {
+    grid-area: 1 / 5 / 2 / 6;
     display: grid;
     place-items: center;
     background-color: $couleur-turquoise;
@@ -183,18 +190,15 @@ main {
     border-radius: 0 20px 20px 0;
     color: #fff;
     margin-right: -80px;
+    width: 80px;
     overflow: hidden;
-    transition: 0.5s;
+    transition: all 0.5s;
   }
 }
 
-.grille-Menu:hover .validation {
+.grille-Menu:hover .validation { 
   margin-right: 0px;
   cursor: pointer;
-}
-
-.grille-Menu:hover .menu-price {
-  margin-right: 15px;
 }
 
 .appear-1 {

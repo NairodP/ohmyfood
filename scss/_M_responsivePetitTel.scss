@@ -1,4 +1,17 @@
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 424px) {
+  main {
+    .menu-type {
+      h2 {
+        font-size: 25px;
+      }
+      i {
+        font-size: 27px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 345px) {
   
   .loaderPage {
     .main {
@@ -41,19 +54,6 @@
       }
       i {
         font-size: 24px;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 424px) {
-  main {
-    .menu-type {
-      h2 {
-        font-size: 25px;
-      }
-      i {
-        font-size: 27px;
       }
     }
   }

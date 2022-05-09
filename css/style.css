@@ -665,8 +665,11 @@ main .menu-type i {
 }
 
 .grille-Menu {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) auto;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
   background-color: #fff;
   border-radius: 20px;
   margin: 15px;
@@ -676,9 +679,10 @@ main .menu-type i {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  position: relative;
 }
 .grille-Menu .menu {
-  transform-origin: top;
+  grid-area: 1/1/2/4;
   padding: 15px;
   white-space: nowrap;
   overflow: hidden;
@@ -699,6 +703,7 @@ main .menu-type i {
   font-weight: 300;
 }
 .grille-Menu .menu-price {
+  grid-area: 1/4/2/5;
   font-weight: bold;
   padding-right: 5px;
   padding-bottom: 15px;
@@ -709,6 +714,7 @@ main .menu-type i {
   margin-right: 15px;
 }
 .grille-Menu .validation {
+  grid-area: 1/5/2/6;
   display: grid;
   place-items: center;
   background-color: #99E2D0;
@@ -716,17 +722,14 @@ main .menu-type i {
   border-radius: 0 20px 20px 0;
   color: #fff;
   margin-right: -80px;
+  width: 80px;
   overflow: hidden;
-  transition: 0.5s;
+  transition: all 0.5s;
 }
 
 .grille-Menu:hover .validation {
   margin-right: 0px;
   cursor: pointer;
-}
-
-.grille-Menu:hover .menu-price {
-  margin-right: 15px;
 }
 
 .appear-1 {
@@ -980,8 +983,11 @@ main .menu-type i {
 }
 
 .grille-Menu {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) auto;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
   background-color: #fff;
   border-radius: 20px;
   margin: 15px;
@@ -991,8 +997,10 @@ main .menu-type i {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  position: relative;
 }
 .grille-Menu .menu {
+  grid-area: 1/1/2/4;
   padding: 15px;
   white-space: nowrap;
   overflow: hidden;
@@ -1013,10 +1021,10 @@ main .menu-type i {
   font-weight: 300;
 }
 .grille-Menu .menu-price {
+  grid-area: 1/4/2/5;
   font-weight: bold;
   padding-right: 5px;
   padding-bottom: 15px;
-  padding-left: 10px;
   font-size: 18px;
   display: flex;
   align-items: flex-end;
@@ -1024,6 +1032,7 @@ main .menu-type i {
   margin-right: 15px;
 }
 .grille-Menu .validation {
+  grid-area: 1/5/2/6;
   display: grid;
   place-items: center;
   background-color: #99E2D0;
@@ -1031,17 +1040,14 @@ main .menu-type i {
   border-radius: 0 20px 20px 0;
   color: #fff;
   margin-right: -80px;
+  width: 80px;
   overflow: hidden;
-  transition: 0.5s;
+  transition: all 0.5s;
 }
 
 .grille-Menu:hover .validation {
   margin-right: 0px;
   cursor: pointer;
-}
-
-.grille-Menu:hover .menu-price {
-  margin-right: 15px;
 }
 
 .appear-1 {
@@ -1295,8 +1301,11 @@ main .menu-type i {
 }
 
 .grille-Menu {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) auto;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
   background-color: #fff;
   border-radius: 20px;
   margin: 15px;
@@ -1306,8 +1315,10 @@ main .menu-type i {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  position: relative;
 }
 .grille-Menu .menu {
+  grid-area: 1/1/2/4;
   padding: 15px;
   white-space: nowrap;
   overflow: hidden;
@@ -1328,6 +1339,7 @@ main .menu-type i {
   font-weight: 300;
 }
 .grille-Menu .menu-price {
+  grid-area: 1/4/2/5;
   font-weight: bold;
   padding-right: 5px;
   padding-bottom: 15px;
@@ -1338,6 +1350,7 @@ main .menu-type i {
   margin-right: 15px;
 }
 .grille-Menu .validation {
+  grid-area: 1/5/2/6;
   display: grid;
   place-items: center;
   background-color: #99E2D0;
@@ -1345,17 +1358,14 @@ main .menu-type i {
   border-radius: 0 20px 20px 0;
   color: #fff;
   margin-right: -80px;
+  width: 80px;
   overflow: hidden;
-  transition: 0.5s;
+  transition: all 0.5s;
 }
 
 .grille-Menu:hover .validation {
   margin-right: 0px;
   cursor: pointer;
-}
-
-.grille-Menu:hover .menu-price {
-  margin-right: 15px;
 }
 
 .appear-1 {
@@ -1616,8 +1626,11 @@ main .menu-type i {
 }
 
 .grille-Menu {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) auto;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
   background-color: #fff;
   border-radius: 20px;
   margin: 15px;
@@ -1630,6 +1643,7 @@ main .menu-type i {
   position: relative;
 }
 .grille-Menu .menu {
+  grid-area: 1/1/2/4;
   padding: 15px;
   white-space: nowrap;
   overflow: hidden;
@@ -1650,6 +1664,7 @@ main .menu-type i {
   font-weight: 300;
 }
 .grille-Menu .menu-price {
+  grid-area: 1/4/2/5;
   font-weight: bold;
   padding-right: 5px;
   padding-bottom: 15px;
@@ -1660,6 +1675,7 @@ main .menu-type i {
   margin-right: 15px;
 }
 .grille-Menu .validation {
+  grid-area: 1/5/2/6;
   display: grid;
   place-items: center;
   background-color: #99E2D0;
@@ -1669,17 +1685,12 @@ main .menu-type i {
   margin-right: -80px;
   width: 80px;
   overflow: hidden;
-  transition: 0.5s;
+  transition: all 0.5s;
 }
 
 .grille-Menu:hover .validation {
   margin-right: 0px;
   cursor: pointer;
-}
-
-.grille-Menu:hover .menu-price {
-  margin-right: 15px;
-  padding-left: 0px;
 }
 
 .appear-1 {
@@ -2212,7 +2223,15 @@ main .menu-type i {
     animation-fill-mode: both;
   }
 }
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 424px) {
+  main .menu-type h2 {
+    font-size: 25px;
+  }
+  main .menu-type i {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 345px) {
   .loaderPage .main .loader {
     width: 35px;
     height: 35px;
@@ -2247,14 +2266,6 @@ main .menu-type i {
   }
   main .menu-type i {
     font-size: 24px;
-  }
-}
-@media screen and (max-width: 424px) {
-  main .menu-type h2 {
-    font-size: 25px;
-  }
-  main .menu-type i {
-    font-size: 27px;
   }
 }
 
