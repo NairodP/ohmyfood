@@ -2181,15 +2181,15 @@ main .menu-type i {
   }
   main .entree_plat_dessert .partie_entree {
     margin: 0 0 0 20px;
-    width: 420px;
+    width: 31%;
   }
   main .entree_plat_dessert .partie_plat {
     margin: 0 0 0 0;
-    width: 420px;
+    width: 31%;
   }
   main .entree_plat_dessert .partie_dessert {
     margin: 0 20px 0 0;
-    width: 420px;
+    width: 31%;
   }
 
   .appear-1,
